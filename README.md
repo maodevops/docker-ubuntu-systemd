@@ -22,18 +22,18 @@ docker run -d \
   --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
-  --name maodevops-ubuntu-systemd \
-  maodevops/ubuntu-systemd:latest
+  --name maodevops-ubuntu20.10-systemd \
+  maodevops/ubuntu-systemd:20.10
 ```
 
 ### Enter it
 
 ```bash
-docker exec -it maodevops-ubuntu-systemd /bin/bash
+docker exec -it maodevops-ubuntu20.10-systemd /bin/bash
 ```
 
 ### Remove it
 
 ```bash
-docker rm -f maodevops-ubuntu-systemd
+docker rm -f maodevops-ubuntu20.10-systemd
 ```
