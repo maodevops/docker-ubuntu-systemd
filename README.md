@@ -1,5 +1,7 @@
 # Docker Ubuntu Systemd
 
+[![build status](https://img.shields.io/docker/cloud/build/maodevops/ubuntu-systemd)](https://hub.docker.com/repository/docker/maodevops/ubuntu-systemd)
+
 Ubuntu image that has systemd enabled.
 
 ## Branches
